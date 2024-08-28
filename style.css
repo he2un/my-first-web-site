@@ -1,3 +1,6 @@
+html {
+  overflow-y: scroll;
+}
 a {
     color:lightsteelblue;
     text-decoration: none;
