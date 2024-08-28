@@ -1,0 +1,38 @@
+a {
+    color:lightsteelblue;
+    text-decoration: none;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 3px solid rgb(243, 204, 228);
+    margin: 0;
+    padding: 20px;
+    width: 1094px;
+}
+ol{
+    font-size: 19px;
+    border-right: 1px solid rgb(243, 204, 228);
+    width: 100px;
+    margin: 0;
+    padding: 30px;
+    height: 450px;
+    margin-top: 10px;
+    border-right-width: 2px;
+    border-bottom-width: 10px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol{
+  padding-left: 20px;
+}
+#artical{
+  padding-left: 20px;
+}
